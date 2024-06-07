@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Light, Green Light</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body class="bg-dark text-white">
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Welcome, <span id="playerName"></span></h1>
+    <p class="text-center">Score: <span id="score">0</span></p>
+    <p class="text-center">Max Score: <span id="maxScore">0</span></p>
+    <div class="text-center py-3 mb-4">
+      <img id="trafficLightImg" src="images/red-light.png"  class="traffic-light-img">
+    </div>
+    <div class="buttonGroup"> 
+      <button id="walkBtn1" type="button" class="btn btn-primary btn-lg">
+        <img src="images/shoe1.png"  class="shoe-img"> Left
+      </button>
+      <button id="walkBtn2" type="button" class="btn btn-secondary btn-lg">
+        <img src="images/shoe2.png" class="shoe-img"> Right
+      </button>
+    </div>
+   <div class="exit"> 
+    <button id="exitBtn" class="btn btn-danger">Exit</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

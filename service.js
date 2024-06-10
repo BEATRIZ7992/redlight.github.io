@@ -7,7 +7,6 @@ self.addEventListener('install', (event) => {
         '/game.html',
         '/styles.css',
         '/app.js',
-        '/manifest.json',
         'images/red-light.png',
         'images/green-light.png',
         'images/shoe1.png',
